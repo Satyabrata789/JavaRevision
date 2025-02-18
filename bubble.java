@@ -2,12 +2,12 @@ import java.util.Scanner;
 
 public class bubble{
     public static void main(String[] args) {
-        Scanner sc= new Scanner(System.in);
+        Scanner scanner= new Scanner(System.in);
         System.out.println("Enter no.");
-        int n=sc.nextInt();
+        int n=scanner.nextInt();
         int [] array= new int[n];
         for(int i=0;i<n;i++){
-            array[i]=sc.nextInt();
+            array[i]=scanner.nextInt();
         }
         System.out.print("[");
         for(int i=0;i<n;i++){
@@ -28,6 +28,6 @@ public class bubble{
         for(int i=0;i<n;i++){
             System.out.print(array[i]+", ");
         }
-        sc.close();
+        scanner.close();
     }
 }
